@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="StyleSheet.css">
+        <title>Student: Create Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        
+                <div class="horizontal-menu">
+        <a href="index.html" >Home</a>
+        <a href="login.html" class="active">Login</a>
+        <a href="about.html">About</a>
+        </div>           
+            
+        <h1 style = "font-family:verdana;">
+        LOG-SHEET 2.0
+        </h1>
+        <h2 style = "font-family:verdana;">
+        The Lab Login Sheet, but Like Better
+        </h2>
+            <div class="vertical-menu">
+            </div>
+            
+        <div class="vertical-menu">
+             <a href="student.html" >Return</a>
+                <form action = "createStudent.php" method = "post">
+                    <div style = "color:white;">
+                    <br>First Name:<br>
+                    <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div style = "color:white;">
+                    <br>Last Name:<br>                        
+                    <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div style = "color:white;">
+                    <br>Student ID:<br>
+                    </div>
+                    <div style = "color:white;">
+                    <input type="text" id="studentID" name="studentID" required>
+                    <br>Course ID:<br>
+                    </div>
+                    <div style = "color:white;">
+                    <input type="text" id="courseID" name="courseID" required>
+                    <br>Password:<br>
+                    </div>
+                    <div style = "position:relative; left:27px;">
+                    <input type="password" id="password" name="password" maxlength="50" required>
+                    <input type="submit" value="Sign In">
+                    </div>
+                </form>
+        </div>  
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script type = "text/javascript" src = "model.js"> </script>
+        <link rel="stylesheet" href="StyleSheet.css">
+        <title>Admin Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        
+                <div class="horizontal-menu">
+        <a href="index.html" >Home</a>
+        <a href="login.html" class="active">Login</a>
+        <a href="about.html">About</a>
+        </div>           
+            
+        <h1 style = "font-family:verdana;">
+        LOG-SHEET 2.0
+        </h1>
+        <h2 style = "font-family:verdana;">
+        The Lab Login Sheet, but Like Better
+        </h2>
+<!--            <div class="vertical-menu">
+            </div>-->
+            
+        <div class="vertical-menu">
+            <a href="login.html" >Return</a>
+                <form action = "adminLogin.php" method = "post">
+                    <div style = "color:white;">
+                    <br>Username:<br>
+                    </div>
+                    <div style = "color:white;">
+                    <input type="text" id="adminID" name="adminID" required>
+                    <br>Password:<br>
+                    </div>
+                    <div style = "position:relative; left:27px;">
+                    <input type="password" id="adminPassword" name="adminPassword" maxlength="50" required>
+                    <input type="submit" value="Sign In">
+                    </div>
+                </form>
+            <h4 style = "font-family:verdana;">
+                Your Username or Password is incorrect. Please try again.
+            </h4>            
+            <div id="itDoesntMatter"> </div>
+        </div>  
+    </body>
+</html>

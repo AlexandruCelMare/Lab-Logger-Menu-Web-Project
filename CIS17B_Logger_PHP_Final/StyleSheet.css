@@ -1,0 +1,363 @@
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    opacity: 0.7;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+}
+
+p1{
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color: #323232;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.7;
+    bottom: 60px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    opacity: 0.7;
+    animation: fadeIn linear 2.3s;
+    -webkit-animation: fadeIn linear 2.3s;
+    -moz-animation: fadeIn linear 2.3s;
+    -o-animation: fadeIn linear 2.3s;
+    -ms-animation: fadeIn linear 2.3s;
+}
+
+h4 {
+    color: #323232;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    bottom: 60px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 2s;
+    bottom: 5px;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+h5 {
+    color: #323232;
+    position: relative;
+    text-align: center;
+    font-size: 21px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 2s;
+    bottom:-15px;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+h6 {
+    color: #323232;
+    position: relative;
+    font-size: 21px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 2s;
+    bottom:-15px;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+
+
+.vertical-menu {
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  bottom: 50px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+}
+
+body {
+    background: url(ServeABackground.jpeg) no-repeat center center;
+    background-color: black;
+      /* Full height */
+  height: 600px;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical-menu a {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.vertical-menu a:hover {
+  background-color: #323232;
+}
+
+.vertical-menu a.active {
+  background-color: #008080;
+  color: white;
+     opacity: 0.7;
+}
+
+.horizontal-menu {
+/*  height: 50px;*/
+/*  text-align: center;*/
+  margin: 30px;
+/*  height: 50px;*/
+/*  border-right:1px solid #bbb;*/
+}
+
+.horizontal-menu a {
+  background-color: grey;
+  color: white;
+  padding: 20px 26px;
+  font-size: 16px;
+  text-decoration: none;
+  opacity: 0.7;
+  
+}
+
+.horizontal-menu a:hover {
+  background-color: #323232;
+}
+
+.horizontal-menu a.active {
+  background-color: #0096FF;
+  color: white;
+     opacity: 0.7;
+}
+
+.viewSurveys {
+  width: 500px;
+  height: 350px;
+  text-align: center;
+  margin: auto;
+  bottom: 50px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+    overflow: auto;
+}
+
+.viewSurveys a {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.viewSurveys a:hover {
+  background-color: #323232;
+}
+
+.viewSurveys a.active {
+  background-color: #008080;
+  color: white;
+     opacity: 0.7;
+}
+
+.viewSurveys input[type = submit] {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  margin:0 auto;
+  width: 100%;
+  
+}
+
+.takeSurveys {
+  width: 500px;
+  height: 350px;
+  position: relative;
+  margin: auto;
+  bottom: 50px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+    overflow: auto;
+}
+
+.takeSurveys a {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.takeSurveys a:hover {
+  background-color: #323232;
+}
+
+.takeSurveys a.active {
+  background-color: #008080;
+  color: white;
+     opacity: 0.7;
+}
+
+.takeSurveys input[type = submit] {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  margin:0 auto;
+  width: 100%;
+  
+}
+
+/*.password {
+    right: 30px;
+}*/
+
+.rSubmit a {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.rSubmit a.active {
+  background-color: #008080;
+  color: white;
+     opacity: 0.7;
+}
+
+.rSubmit input[type = submit] {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  margin:0 auto;
+  width: 100%;
+  
+}
+
+.rSubmit {
+  width: 500px;
+/*  height: 100px;*/
+  position: relative;
+  margin: auto;
+  bottom: 50px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+}
+
+.takeReturn {
+  width: 500px;
+  height: 92px;
+  text-align: center;
+  margin: auto;
+  bottom: 50px;
+    animation: fadeIn linear 1.5s;
+    -webkit-animation: fadeIn linear 1.5s;
+    -moz-animation: fadeIn linear 1.5s;
+    -o-animation: fadeIn linear 1.5s;
+    -ms-animation: fadeIn linear 1.5s;
+}
+
+.takeReturn a {
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.takeReturn a:hover {
+  background-color: #323232;
+}
+
+.takeReturn a.active {
+  background-color: #008080;
+  color: white;
+     opacity: 0.7;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  70% {opacity:0.7;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  70% {opacity:0.7;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  70% {opacity:0.7;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  70% {opacity:0.7;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  70% {opacity:0.7;}
+}
